@@ -49,7 +49,7 @@ spring:
     driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
     url: jdbc:log4jdbc:mariadb://host:port/service_name
     username: admin
-    password: ENC(maeEgB1tTjd0QvtyqJs6gzqj4Rt90tpPITTA7ktUj2FfbxfTF66UxtsqiJfSoJx7)
+    password: test
     hikari:
       minimum-idle: 10
       maximum-pool-size: 25
