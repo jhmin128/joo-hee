@@ -21,7 +21,7 @@
 
 - Spring Boot 3.3.2
 - Java 17
-- ~~PostgreSQL~~ MariaDB
+- ~~PostgreSQL~~ Mysql
 - ...
 
 ## to-do
