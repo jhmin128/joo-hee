@@ -34,15 +34,17 @@ jobs:
         run: |
           insert_string="plugins { id 'org.sonarqube' version '4.4.1.3373' }"
           if [ -f "build.gradle" ]; then
-            echo "$insert_string" > temp.gradle
-            cat build.gradle >> temp.gradle
-            echo "" >> temp.gradle
-            echo "sonarqube {" >> temp.gradle
-            echo "    properties {" >> temp.gradle
-            echo "        property 'sonar.java.binaries', '**'" >> temp.gradle
-            echo "    }" >> temp.gradle
-            echo "}" >> temp.gradle
-            mv temp.gradle build.gradle
+            if ! grep -q "org.sonarqube" build.gradle; then
+              echo "$insert_string" > temp.gradle
+              cat build.gradle >> temp.gradle
+              echo "" >> temp.gradle
+              echo "sonarqube {" >> temp.gradle
+              echo "    properties {" >> temp.gradle
+              echo "        property 'sonar.java.binaries', '**'" >> temp.gradle
+              echo "    }" >> temp.gradle
+              echo "}" >> temp.gradle
+              mv temp.gradle build.gradle
+            fi
           else
             echo "$insert_string" > build.gradle
             echo "" >> build.gradle
