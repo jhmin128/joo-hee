@@ -1,6 +1,6 @@
 package com.flab.joohee.service;
 
-import com.flab.joohee.model.domain.Reservation;
+import com.flab.joohee.model.domain.entity.Reservation;
 import com.flab.joohee.dto.request.ReservationRequest;
 import com.flab.joohee.dto.response.ReservationResponse;
 import com.flab.joohee.repository.ReservationMapper;

@@ -23,6 +23,7 @@ dependencies {
     // Spring Boot Starters
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-validation'
+    implementation 'org.springframework.boot:spring-boot-starter-security'
     implementation 'org.springframework.boot:spring-boot-starter-oauth2-resource-server'
 
     // Utilities
@@ -34,11 +35,14 @@ dependencies {
 
     // MyBatis and Database Drivers
     implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:3.0.3'
-    implementation 'org.mariadb.jdbc:mariadb-java-client'
+    implementation 'mysql:mysql-connector-java:8.0.33'
 
     // Log4jdbc for SQL Logging
-//    implementation 'org.bgee.log4jdbc-log4j2:log4jdbc-log4j2-jdbc4.1'
     implementation 'org.bgee.log4jdbc-log4j2:log4jdbc-log4j2:1.16'
+
+    // swagger
+    implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui'
+    implementation 'io.swagger.core.v3:swagger-annotations:2.2.23'
 
     // Development Only Tools
     developmentOnly 'org.springframework.boot:spring-boot-devtools'

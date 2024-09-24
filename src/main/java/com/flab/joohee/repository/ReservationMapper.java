@@ -1,6 +1,6 @@
 package com.flab.joohee.repository;
 
-import com.flab.joohee.model.domain.Reservation;
+import com.flab.joohee.model.domain.entity.Reservation;
 import com.flab.joohee.dto.request.ReservationRequest;
 import org.apache.ibatis.annotations.Mapper;
 

@@ -3,14 +3,14 @@
 <mapper namespace="com.flab.joohee.repository.ReservationMapper">
     <select id="getReservations"
             parameterType="com.flab.joohee.dto.request.ReservationRequest"
-            resultType="com.flab.joohee.model.domain.Reservation">
+            resultType="com.flab.joohee.model.domain.entity.Reservation">
         select *
         from dual;
     </select>
 
     <select id="getReservation"
             parameterType="com.flab.joohee.dto.request.ReservationRequest"
-            resultType="com.flab.joohee.model.domain.Reservation">
+            resultType="com.flab.joohee.model.domain.entity.Reservation">
         select *
         from dual;
     </select>
