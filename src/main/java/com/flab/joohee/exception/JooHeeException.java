@@ -1,6 +1,6 @@
 package com.flab.joohee.exception;
 
-import com.flab.joohee.code.ErrorCode;
+import com.flab.joohee.model.errorcode.ErrorCode;
 import lombok.Getter;
 
 @Getter

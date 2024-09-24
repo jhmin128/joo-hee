@@ -1,7 +1,7 @@
 package com.flab.joohee.exception.controller;
 
-import com.flab.joohee.code.ErrorCode;
-import com.flab.joohee.model.response.JooHeeResponse;
+import com.flab.joohee.model.errorcode.ErrorCode;
+import com.flab.joohee.dto.response.JooHeeResponse;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.web.error.ErrorAttributeOptions;

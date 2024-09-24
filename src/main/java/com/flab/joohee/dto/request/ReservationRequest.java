@@ -1,6 +1,6 @@
-package com.flab.joohee.model.request;
+package com.flab.joohee.dto.request;
 
-import com.flab.joohee.code.ReservationStatus;
+import com.flab.joohee.model.enums.ReservationStatus;
 import jakarta.validation.constraints.NotBlank;
 import lombok.Getter;
 import lombok.Setter;

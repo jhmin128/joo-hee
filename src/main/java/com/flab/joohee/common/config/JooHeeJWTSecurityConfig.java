@@ -1,4 +1,4 @@
-package com.flab.joohee.config;
+package com.flab.joohee.common.config;
 
 import com.flab.joohee.exception.handler.JooHeeAccessDeniedHandler;
 import jakarta.servlet.DispatcherType;

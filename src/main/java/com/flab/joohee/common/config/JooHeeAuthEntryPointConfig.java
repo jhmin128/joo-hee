@@ -1,9 +1,9 @@
-package com.flab.joohee.config;
+package com.flab.joohee.common.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.flab.joohee.code.CommonErrorCode;
-import com.flab.joohee.code.ErrorCode;
-import com.flab.joohee.model.response.JooHeeResponse;
+import com.flab.joohee.model.errorcode.CommonErrorCode;
+import com.flab.joohee.model.errorcode.ErrorCode;
+import com.flab.joohee.dto.response.JooHeeResponse;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

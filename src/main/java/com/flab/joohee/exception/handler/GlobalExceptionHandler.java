@@ -1,9 +1,9 @@
 package com.flab.joohee.exception.handler;
 
-import com.flab.joohee.code.CommonErrorCode;
-import com.flab.joohee.code.ErrorCode;
+import com.flab.joohee.model.errorcode.CommonErrorCode;
+import com.flab.joohee.model.errorcode.ErrorCode;
 import com.flab.joohee.exception.JooHeeException;
-import com.flab.joohee.model.response.JooHeeResponse;
+import com.flab.joohee.dto.response.JooHeeResponse;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

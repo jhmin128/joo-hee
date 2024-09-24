@@ -1,6 +1,6 @@
-package com.flab.joohee.model.response;
+package com.flab.joohee.dto.response;
 
-import com.flab.joohee.code.ReservationStatus;
+import com.flab.joohee.model.enums.ReservationStatus;
 import lombok.Getter;
 import lombok.Setter;
 

@@ -1,8 +1,8 @@
 package com.flab.joohee.controller;
 
-import com.flab.joohee.model.request.ReservationRequest;
-import com.flab.joohee.model.response.JooHeeResponse;
-import com.flab.joohee.model.response.ReservationResponse;
+import com.flab.joohee.dto.request.ReservationRequest;
+import com.flab.joohee.dto.response.JooHeeResponse;
+import com.flab.joohee.dto.response.ReservationResponse;
 import com.flab.joohee.service.ReservationService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

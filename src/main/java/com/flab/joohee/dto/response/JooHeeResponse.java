@@ -1,6 +1,6 @@
-package com.flab.joohee.model.response;
+package com.flab.joohee.dto.response;
 
-import com.flab.joohee.code.ErrorCode;
+import com.flab.joohee.model.errorcode.ErrorCode;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import org.springframework.http.HttpStatus;

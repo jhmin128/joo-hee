@@ -1,4 +1,4 @@
-package com.flab.joohee.code;
+package com.flab.joohee.model.errorcode;
 
 import org.springframework.http.HttpStatus;
 
